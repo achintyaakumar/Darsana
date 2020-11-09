@@ -1,0 +1,11 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = hey guide dog    |
+          to my left   |
+          to my right   |
+          front of me   |
+          near me  ;
+
+public <digits> = <digit>+;
